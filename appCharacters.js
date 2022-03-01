@@ -775,9 +775,9 @@ class Player extends Character
         this.wasHoldingJump = this.holdingJump;
 
         // controls
-        this.holdingShoot  = !this.playerIndex && (mouseIsDown(0) || keyIsDown(90)) || gamepadIsDown(2, this.playerIndex);
-        this.pressingThrow = !this.playerIndex && (mouseIsDown(2) || keyIsDown(67)) || gamepadIsDown(1, this.playerIndex);
-        this.pressedDodge  = !this.playerIndex && (mouseIsDown(1) || keyIsDown(88)) || gamepadIsDown(3, this.playerIndex);
+        this.holdingShoot  = !this.playerIndex && (mouseIsDown(0) || keyIsDown(74)) || gamepadIsDown(2, this.playerIndex);
+        this.pressingThrow = !this.playerIndex && (mouseIsDown(2) || keyIsDown(76)) || gamepadIsDown(1, this.playerIndex);
+        this.pressedDodge  = !this.playerIndex && (mouseIsDown(1) || keyIsDown(75)) || gamepadIsDown(3, this.playerIndex);
 
         super.update();
 
